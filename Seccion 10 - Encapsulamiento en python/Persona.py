@@ -30,3 +30,5 @@ class Persona:
   def edad(self, edad):
     self._edad = edad
 
+  def __del__(self):
+    print(f'Persona: {self.nombre} eliminada')
