@@ -12,6 +12,9 @@ class MiClase:
     def metodo_clase(cls):
       print('Metodo Clase',cls.variable_clase)
 
+    def metodo_instancia(self):
+      print('Metodo Instancia',self.variable_instancia)
+
 print(MiClase.variable_clase)
 miClase = MiClase('Valor variable instancia')
 print(miClase.variable_instancia)
@@ -25,3 +28,9 @@ print(MiClase.variable_clase2)
 
 MiClase.metodo_estatico()
 MiClase.metodo_clase()
+
+print('##### ##### ##### #####')
+
+miObjeto1 = MiClase('variable_instancia')
+miObjeto1 .metodo_clase()
+miObjeto1 .metodo_instancia()
