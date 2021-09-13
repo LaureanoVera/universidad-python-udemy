@@ -1,9 +1,8 @@
 result = None
 
-x = '10'
-y = 0
-
 try:
+    x = int(input('First Number: '))
+    y = int(input('Second Number: '))
     result = x / y
 
 except ZeroDivisionError as zde:
